@@ -1,0 +1,500 @@
+   20  git log --all
+   21  mkdir -p file.text
+   22  git status
+   23  git log
+   24  git branch main
+   25  nano .gitignore
+   26  cat .gitignore
+   27  git checkout .gitignore
+   28  git syayus
+   29  git status
+   30  git add .gitignore
+   31  git status
+   32  git checkout main
+   33  git init
+   34  ls -al
+   35  git log
+   36  git clone
+   37  git status
+   38  git add .
+   39  git commit -m "Added files index.html, scripts, styles, assest."
+   40  git remote add origin git@github.com:Olhaj/To_Do_List.git
+   41  git remote -v
+   42  git push -u origin main
+   43  git branch -M main
+   44  git push -u origin main
+   45  git status
+   46  git init
+   47  dit branch -M main
+   48  git syayus
+   49  git status
+   50  git branch -M main
+   51  git status
+   52  git add .
+   53  git commit -m "Added files index.html, scripts, styles."
+   54  git remote add origin https://github.com/Olhaj/To_Do_List.git
+   55  git push -u origin main
+   56  git init
+   57  git status
+   58  git branch -M main
+   59  git add .
+   60  git commit -m "Added files index.html, scripts, styles."
+   61  git clone
+   62  git remote add origin git@github.com:Olhaj/To_Do_List.git
+   63  git push -u origin main
+   64  git push --help
+   65  git status
+   66  git push
+   67  git push --set-upstream origin main
+   68  git init -b main
+   69  git switch -c gitignore
+   70  git branch
+   71  curl -L https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore -o .gitignore
+   72  cat .gitignore
+   73  git config --global --list
+   74  git add .gitignore
+   75  git status
+   76  git commit -m "Add gitignore"
+   77  git remote add origin https://github.com/Olhaj/git-branch.git
+   78  git remote -v
+   79  git branch
+   80  git log --oneline
+   81  git status
+   82  git push -u origin main
+   83  git switch main
+   84  git switch -c
+   85  git push -u origin gitignore
+   86  git switch
+   87  git switch main
+   88  git switch -c main
+   89  git branch
+   90  git clone https://github.com/Olhaj/git-feature.git
+   91  git status
+   92  cat > .gitignore <<'EOF'
+   93  *.log
+   94  .env
+   95  __pycache__/
+   96  EOF
+   97  cat .gitignore
+   98  git add .gitignore
+   99  git commit -m "Add gitignore"
+  100  git push origin main
+  101  git init -b main
+  102  git status
+  103  git switch -c feature
+  104  $ cat > .gitignore <<'EOF'
+  105  > *.log
+  106  > .env
+  107  > __pycache__/
+  108  > EOF
+  109  cat > .gitignore <<'EOF'
+  110  *.log
+  111  .env
+  112  __pycache__/
+  113  EOF
+  114  cat .gitignore
+  115  cat > .README.md
+  116  git status
+  117  git add .gitignore
+  118  git add ".gitignore"
+  119  git add ".README.md"
+  120  git status
+  121  git commit -m "Add files gitignore and readme"
+  122  git status
+  123  cat >> README.md <<'EOF'
+  124  ##
+  125  cat >> README.md <<'EOF'
+  126  ## Feature
+  127  This section was added in the feature branch
+  128  EOF
+  129  cat >> .gitignore <<'EOF'
+  130  *.tmp
+  131  .DS_Store
+  132  EOF
+  133  git diff
+  134  git add README.md .gitignore
+  135  git add .
+  136  git status
+  137  git restore --staged "git-feature"
+  138  git status
+  139  git commit -m "Add feature changes"
+  140  git push -u origin feature
+  141  git status
+  142  git add .
+  143  git add.
+  144  git --help
+  145  git  history
+  146  rm git-feature/
+  147  git status
+  148  ls -ld git-feature
+  149  file git-feature
+  150  git add.
+  151  git status
+  152  git commit -m "Add git-feature: directory"
+  153  git push origin feature
+  154  ls -la
+  155  cd git-feature
+  156  git remote -v
+  157  git branch
+  158  git switch feature
+  159  git switch feature
+  160  ls -la
+  161  cd .git-feature
+  162  cd git-feature
+  163  cd /c/ICH/Homework/Linux&Git/git-feature/git-feature
+  164  ls -ld git-feature
+  165  git init -b main
+  166  git clone https://github.com/Olhaj/git-feature.git
+  167  git status
+  168  git clone https://github.com/Olhaj/git-feature.git
+  169  git status
+  170  git clone https://github.com/Olhaj/git-feature.git
+  171  cd git-feature
+  172  git status
+  173  cat > .gitignore <<'EOF'
+  174  *.log
+  175  .env
+  176  __pycache__/
+  177  EOF
+  178  cat .gitignore
+  179  git add .gitignore
+  180  git add.
+  181  git status
+  182  git commit -m "Add gitignore"
+  183  git push origin main
+  184  git switch -c feature
+  185  git braunch
+  186  git branch
+  187  cat >> README.md <<'EOF'
+  188  ## Feature
+  189  This section was added in the feature branch
+  190  EOF
+  191  cat README.md
+  192  cat >> .gitignore <<'EOF'
+  193  *.tmp
+  194  .DS_Store
+  195  EOF
+  196  git diff
+  197  git status
+  198  git add.
+  199  git status
+  200  git add .
+  201  git status
+  202  git commit -m "Add feature changes"
+  203  git push -u origin feature 
+  204  git commit --amend -m "Add feature changes ammend"
+  205  git push --force-with-lease jrigin feature
+  206  git push --force-with-lease origin feature
+  207  git switch main
+  208  git pull origin main
+  209  git merge feature
+  210  git push origin main
+  211  git status
+  212  history > history.txt
+  213  head history.txt
+  214  git add .
+  215  git status
+  216  git commit -m "Add command history"
+  217  git push origin main
+  218  git branch
+  219  git status
+  220  git log --oneline --all --decorate --graph
+  221  ls -la
+  222  ls -al
+  223  nano Song.txt
+  224  nano Song.txt
+  225  git status
+  226  git branch -M main
+  227  git init -b main
+  228  git status
+  229  git add Song.txt
+  230  git commit -m "Inital commit"
+  231  git log
+  232  git checkout -b merge-test
+  233  cat Song.txt
+  234  nano Song.txt
+  235  git status
+  236  git commit -m "Add 2 lines in Song.txt"
+  237  git add .
+  238  git commit -m "Add 2 lines in Song.txt"
+  239  git status
+  240  git log --all
+  241  cat Song.txt
+  242  git merge merge-text
+  243  git switch main
+  244  git merge merge-text
+  245  git log
+  246  git status
+  247  code .
+  248  date >> Date.txt
+  249  git status
+  250  git add .
+  251  git commit -m "Add new file Date.txt"
+  252  git checkout merge-test
+  253  nano Song.txt
+  254  cat Song.txt
+  255  git status
+  256  git add .
+  257  git commit -m "Add 2 lines in Song.txt"
+  258  git switch main
+  259  git branch
+  260  git rebase
+  261   git branch --set-upstream-to=<remote>/<branch> main
+  262  git log
+  263  ls -al
+  264  echo "+++++++++++++" >> Date.txt
+  265  cat Date.txt
+  266  git commit -m "Edit-1 file Date.txt"
+  267  git commit -m "Edit-1 file Date.txt"
+  268  git add .
+  269  git commit -m "Edit-1 file Date.txt"
+  270  date >> Date.txt
+  271  git add .
+  272  git commit -m "Edit-2 file Date.txt"
+  273  git log
+  274  git switch merge-test
+  275  nano Song.txt
+  276  git add .
+  277  git commit -m "Edit 3 Song.txt"
+  278  git log
+  279  ls -al
+  280  git rebase main
+  281  ls -la
+  282  git log --oneline
+  283  git switch main
+  284  git log --oneline
+  285  git status
+  286  git log
+  287  git remote -v
+  288  git remote add origin git@github.com:Olhaj/To_Do_List.git
+  289  git remote add origin git@github.com:Olhaj/To_Do_List.git
+  290  git remote add origin https://github.com/Olhaj/To_Do_List.git
+  291  git remote -v
+  292  git remote set-url origin  https://github.com/Olhaj/To_Do_List.git
+  293  git remote -v
+  294  git push -u origin main
+  295  git pull --rebase origin main
+  296  git push -u origin main
+  297  git switch -c
+  298  git switch -c "Feature/HTML"
+  299  git add .
+  300  git status
+  301  git status
+  302  git add .
+  303  git status
+  304  git commit -m "Icons were added to the folder, and the entire skeleton of the project was also registered"
+  305  git push
+  306  git push --set-upstream origin Feature/HTML
+  307  git switch main
+  308  git pull --rebase origin main
+  309   git pull --rebase origin main
+  310  git switch -c "Feature/CSS"
+  311  git staus
+  312  git status
+  313  git add . 
+  314  git commit -m "A style has been created for the search input and global extensions, and fobts have been enabled"
+  315  git push
+  316  git push --set-upstream origin Feature/CSS
+  317  git status
+  318  git log
+  319  git switch main
+  320  git pull origin main
+  321  git pull origin main
+  322  git switch Feature/HTML
+  323  code .
+  324  git status
+  325  git add .
+  326  git commit -m "I completely updated index.html, since the old version did not suit me."
+  327  git status
+  328  git branch
+  329  git push
+  330  git switch main
+  331  git switch Feature/HTML
+  332  code .
+  333  git init -b main
+  334  git switch -c "Feature/HTML"
+  335  git status
+  336  git add index.html
+  337  git commit -m "A file with index.html has been added, which contains the complete skeleton of the task application."
+  338  git push
+  339  git remote -v
+  340  git remote add origin https://github.com/Olhaj/To_Do_List.git
+  341  git branch --show-current
+  342  git push -u origin Feature/HTML
+  343  git status
+  344  git push -u origin main
+  345  git branch
+  346  git push
+  347  git status
+  348  git switch main
+  349  git init -b main
+  350  git remote -v
+  351  git remote add origin https://github.com/Olhaj/To_Do_List.git
+  352  git branch --show-current
+  353  git status
+  354  git add .
+  355  git status
+  356  git commit -m "Added files for icons and downloaded icons, also the index.html file, the scripts folder containing the script.js file, and another styles folder containing the style.css file, there were also fonts added to index.html."
+  357  git status
+  358  git push origin main
+  359  git status
+  360  git branch --show--current
+  361  git branch --show-current
+  362  git push -u origin main
+  363  git pull --rebase origin main
+  364  git push origin main
+  365  git status
+  366  git switch -c "Feature/HTML"
+  367  git status
+  368  git add .
+  369  git commit -m "A skeleton of the task application was created in index.html"
+  370  git status
+  371  git push -u origin Feature/HTML
+  372  git switch main
+  373  git status
+  374  git push origin main
+  375  git switch Feature/HTML
+  376  git switch main
+  377  git pull origin main
+  378  git switch Feature/HTML
+  379  git status
+  380  git add .
+  381  git commit -m "A skeleton of a modal window for recording tasks has been added to the file."
+  382  git push
+  383  git switch main
+  384  git push
+  385   git push --set-upstream origin main
+  386  git pull
+  387  git pull origin main
+  388  git switch Feature/HTML
+  389  git status
+  390  git push -u origin Feature/HTML
+  391  git merge origin main
+  392  git clone git@github.com:Olhaj/Fork-Test.git
+  393  cd Fork-Test
+  394  git status
+  395  git branch -a
+  396  git switch -c "OlhaChirkova"
+  397  git clone git@github.com:Olhaj/Fork-Test.git
+  398  cd Fork-Test
+  399  git status
+  400  git branch -a
+  401  git switch Develop
+  402  git switch -c "OlhaChirkova"
+  403  touch Teams
+  404  ls -al
+  405  cd Fork-Test
+  406  git clone git@github.com:Olhaj/Fork-Test.git
+  407  git status
+  408  git branch -v
+  409  cd Fork-Test
+  410  git branch -v
+  411  git branch -a
+  412  git switch Develop
+  413  git switch -c "OlhaChirkova"
+  414  date > touch OlhaC.txt
+  415  date > OlhaC.txt
+  416  ls -al
+  417  git status
+  418  cd
+  419  ls -al .git
+  420  cd ..
+  421  cd 
+  422  cd Fork-Test/
+  423  cd /c/ICH/Lesson/Git/Fork-Test/Fork-Test (OlhaChirkova)
+  424  git clone git@github.com:Olhaj/Fork-Test.git
+  425  cd Fork-Test
+  426  ls -al
+  427  git branch -a
+  428  git switch Develop
+  429  ls -al
+  430  git switch -c "OlhaChirkova"
+  431  date > OlhaC.txt
+  432  cat OlhaC.txt
+  433  git status
+  434  git add OlhaC.txt
+  435  git add OlhaC.txt
+  436  git commit -m "Add new fiel"
+  437  git push origin Develop
+  438  git push
+  439   git push --set-upstream origin OlhaChirkova
+  440  git clone git@github.com:Olhaj/learning_git.git
+  441  cd learnin_git
+  442  cd /learnin_git
+  443  git clone git@github.com:gekon-dp/team-of-buddies.git
+  444  git switch main
+  445  git checkout main
+  446  git status
+  447  cd project
+  448  git branch -a
+  449  cd team-of-buddies
+  450  git status
+  451  git branch -a
+  452  git switch Develop
+  453  git pull
+  454  git pull origin Develop
+  455  git switch main
+  456  git pull origin main
+  457  git status
+  458  git restore song.txt
+  459  git status
+  460  git pull origin main
+  461  git switch Develop
+  462  git pull origin Develop
+  463  git switch main
+  464  git status
+  465  touch 100726-wdm
+  466  ls -al
+  467  rm 100726-wdm
+  468  ls -al
+  469  git remote -v
+  470  mkdir 100726-wdm
+  471  touch 100726-wdm/OlhaC.txt
+  472  ls -al
+  473  ls 100726-wdm
+  474  git status
+  475  gid add .
+  476  git commit -m "Added a new repository that contains a file"
+  477  git status
+  478  git add .
+  479  git commit -m "Added a new repository that contains a file"
+  480  git push origin main 
+  481  git pull origin main
+  482  git pull
+  483  git pull origin main
+  484  git ls -al
+  485  ls -al
+  486  cd /100726-wdm
+  487  git pull origin main
+  488  git clone git@github.com:Olhaj/my-git-task.git
+  489  cd my-git-task
+  490  git status
+  491  ls -al
+  492  touch .gitignore
+  493  echo "*.log" >> .gitignore
+  494  echo "*temp/" >> .gitignore
+  495  cat .gitignore
+  496  git switch -c feature
+  497  git branch
+  498  echo " " >> README.md
+  499  echo "The changes have been implemented in the feature branch." >> README.md
+  500  echo "*.tmp" >> .gitignore
+  501  git status
+  502  cat .gitignore
+  503  cat README.md
+  504  nano README.md
+  505  cat README.md
+  506  git add .
+  507  git status
+  508  git commit -m "Added changes to README and gitignore"
+  509  git log --oneline
+  510  git push -u origin feature
+  511  git branch -a
+  512  git commit --amend -m "Added changes to README and gitignore ammend"
+  513  git push --force-with-lease origin feature
+  514  git log --oneline -1
+  515  git switch main
+  516  git pull origin main
+  517  git branch
+  518  git merge feature
+  519  history > history.txt
